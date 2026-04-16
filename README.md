@@ -1,50 +1,62 @@
-# Welcome to your Expo app 👋
+# Notes App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Мобільний застосунок для створення та збереження нотаток, розроблений на базі Expo і React Native. У проєкті реалізовано онбординг із 4 слайдами, горизонтальним свайпом, кнопкою "Пропустити" та збереженням стану першого запуску через `AsyncStorage`. Також застосунок підтримує додавання, перегляд, пошук і збереження нотаток.
 
-## Get started
+## Що потрібно для запуску
 
-1. Install dependencies
+- Node.js
+- npm
+- Expo Go на телефоні або емулятор Android/iOS
 
-   ```bash
-   npm install
-   ```
+## Як завантажити проєкт
 
-2. Start the app
-
-   ```bash
-   npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
+### Варіант 1. Через GitHub
 
 ```bash
-npm run reset-project
+git clone <посилання_на_репозиторій>
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+Після цього потрібно перейти в папку проєкту:
 
-## Learn more
+```bash
+cd notesApp1/notesApp
+```
 
-To learn more about developing your project with Expo, look at the following resources:
+### Варіант 2. Завантажити ZIP-архів
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+1. Відкрити репозиторій на GitHub.
+2. Натиснути `Code`.
+3. Обрати `Download ZIP`.
+4. Розпакувати архів на комп'ютері.
+5. Відкрити термінал у папці `notesApp`.
 
-## Join the community
+## Встановлення залежностей
 
-Join our community of developers creating universal apps.
+У папці проєкту потрібно виконати команду:
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+```bash
+npm install
+```
+
+## Запуск проєкту
+
+Після встановлення залежностей потрібно виконати:
+
+```bash
+npm start
+```
+
+Після запуску відкриється Expo Dev Tools, де можна:
+
+- запустити застосунок у Expo Go;
+- відкрити Android emulator;
+- відкрити iOS simulator;
+- запустити вебверсію.
+
+## Коротко про можливості
+
+- онбординг із 4 слайдами;
+- горизонтальний свайп між слайдами;
+- кнопка "Пропустити";
+- збереження стану першого запуску через `AsyncStorage`;
+- створення, пошук і збереження нотаток.
